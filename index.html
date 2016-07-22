@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="Icon" href="icons/icon.png" type="image/png"> 
+<link rel="stylesheet" href="style/maintable.css">
+<link rel="stylesheet" href="style/topmenu.css">
+<link rel="stylesheet" href="style/popup.css">
+
+
+<META charset="windows-1251" name="Stearis" content="Page of Stearis"> 
+<meta name='wmail-verification' content='e3c7647369f18ec4cf58553729726ee0' />
+
+</head>
+
+<style>
+body
+{
+    font: normal small-caps 19.5px "Lucida Sans Unicode";
+    background-color: rgb(207, 217, 208);
+    background-image: url(Background.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-attachment:fixed;
+	position: static;
+}
+@media handheld
+{ 
+	body
+	{
+		 background-image: url(Background10.jpg);
+	}
+}
+#contact
+{
+	width:70%;
+	heigth:70%;
+}
+#forhead 
+{
+	z-index: 3;
+	width:1349px;
+	heigth:250px;
+	position: relative;
+	margin: -0.7%;
+}
+#forhr
+{
+	align: center;
+	color: rgb(207, 217, 208);
+}
+#forbottom
+{
+	border-radius: 10px 10px 10px 10px;
+	font: normal small-caps 16px "Calibri";
+	background:rgb(207, 217, 208);
+	width: 5%;
+	opacity: 0.5;
+}
+
+#scrollup 
+{
+	height: 100%;
+	z-index: 5;
+	position: fixed; 
+	opacity: 0.7;
+	padding: 4px;
+	border-radius: 20px;
+	left: -4px; 
+	bottom: -2px;
+	display: none;
+	cursor: pointer;
+}
+#forplayer
+{
+	width: 100%;
+	height: 100%;
+	background: rgb(142, 168, 164);
+	border-radius: 20px;
+}
+button
+{
+color:rgb(10, 13, 16);
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(207, 217, 208); 
+  padding: 0.5em; 
+  margin: 0.5em; 
+} 
+button:hover { background: rgb(83, 132, 162); } 
+canvas
+{
+	border-radius: 20px;
+}
+.between
+{
+    background: linear-gradient(to top right, rgb(226, 230, 228), rgb(143, 158, 173));
+	background-repeat:no-repeat;
+	margin: -0.6%;
+	width:1349px;
+}
+</style>
+
+<TITLE>
+Stearis - Landing Page
+</TITLE>
+
+<!-------->
+<!--BODY-->
+<!-------->
+<body class="header">
+
+<script type="text/javascript" src='js/scrollup.js'></script>
+<script type="text/javascript" src='js/geolocation.js'></script>
+
+<!----------->
+<!--Mail.Ru-->
+<!----------->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "2789723", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2789723;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+
+
+<!----------------------------------------------------------->
+<!--Отображение всплывающего окна. Первоначально оно скрыто-->
+<!----------------------------------------------------------->
+<div class="popup-wrapper">
+<input type="checkbox" class="popup-checkbox" id="popupCheckboxOne">
+<div class="popup">
+	<div class="popup-content">
+		<label for="popupCheckboxOne" class="popup-closer">×</label>
+		  <table>
+			  <tr>
+				<td align="center">
+					<address><a href="https://twitter.com/StereoDwarf"><img id="contact" src="icons/TW.png" alt="StearisTW"></a></address>
+					<br>
+					Твиттер
+				</td>
+				<td align="center">
+					<address><a href="https://vk.com/stereodwarf"><img id="contact" src="icons/VK.png" alt="StearisVK"></a></address>
+					<br>
+					ВКонтакте
+				</td>
+				<td align="center">
+					<address><a href="https://www.facebook.com/profile.php?id=100002901834042"><img id="contact" src="icons/FB.png" alt="StearisFB"></a></address>
+					<br>
+					Фэйсбук
+				</td>
+			  </tr>
+		  </table>
+	</div>
+</div>
+</div>
+
+<!---------------->
+<!--Верхнее меню-->
+<!---------------->
+<aside>
+<nav id="primary_nav_wrap">
+<ul class="top">
+<li class="current-menu-item"><nav><a href="#start">Начало</a></nav></li>
+	<li><a href="#">Ссылки</a>
+		<ul>
+			<li class="dir"><a href="#">Дизайн</a></li>
+			<li class="dir"><a href="#">Идеи</a></li>
+			<li class="dir"><a href="#">Информация</a></li>
+		</ul>
+	</li>
+	<li class="current-menu-item"><nav><a href="#html5">HTML5</a></nav>
+	</li>
+  <li><a href="#">Галерея</a>
+    <ul>
+		<li class="dir"><a href="#">Моё</a></li>
+		<li class="dir"><a href="#">Арты</a></li>
+		<li class="dir"><a href="#">Фоны</a></li>
+    </ul>
+  </li>
+<li class="current-menu-item"><nav><a href="#">
+<label for="popupCheckboxOne" class="popup-shower">Связаться</label></a></nav></li>
+</ul>
+</nav>
+</aside>
+
+<!------------------------->
+<!--Заглавное изображение-->
+<!------------------------->
+<a name="start"></a>
+<div align="center">
+<img id="forhead" src="images/Head.jpg" alt="StearisHeader">
+</div>
+
+<!------------------------>
+<!--Таблица для "Начало"-->
+<!------------------------> 
+<table id="maintable" align="center">
+	<td colspan=2 align=center><hr id="forhr"></td> 
+		<tr>
+			<td colspan=2 align=center><header><img src="images/Start.png" alt="StearisStart"></header></td>
+		</tr>	
+	<td colspan=2 align=center><hr id="forhr"></td> 
+		<tr>
+			<td id="lefttd"><div id="fordiv"><img id="lefticon" src="icons/Book.png" alt="SearisBook"></div></td>
+			<td id="righttd"><P>Привет, путник! Мой никнейм - Stearis, я являюсь студентом-программистом первого курса. Главная идея этого сайта - быть площадкой для моих первых экспериментов в веб-разработке. Большинство изображений на моем сайте созданы/сверстаны/найдены мною.</P></td>
+		</tr>
+	<td colspan=2 align=center><hr id="forhr"></td> 
+		<tr>
+			<td id="lefttd"><div id="fordiv"><img id="lefticon" src="icons/Computer.png" alt="StearisComp"></div></td>
+			<td id="righttd">
+			<P align="left">При развитии этой страницы я приследую следующие цели:
+				<ul align="left">
+					<li>Тренировка навыков сайтостроения</li>
+					<li>Создание собственного одностраничного сайта</li>
+					<li>Знакомство с системой доменов и хостингов</li>
+				</ul>     
+			</P>
+			</td>
+		</tr>
+	<td colspan=2 align=center><hr id="forhr"></td> 
+		<tr>
+		<td id="lefttd"><div id="fordiv"><img id="lefticon" src="icons/Gear.png" alt="StearisGear"></div></td>
+		<td id="righttd"><P>Сайт написан на HTML с использованием CSS. На сайте присутствует кнопка перемещения в начало страницы, созданная с помощью языка JavaScript. Разработка велась параллельно с выполнением лабораторных заданий, особенности, которые меня интересовали, нашли отражение на моем сайте.</P></td>
+		</tr>
+	<td colspan=2 align=center><hr id="forhr"></td> 
+</table>
+
+<!----------------------------->
+<!--Промежуточное изображение-->
+<!----------------------------->
+<div align="center">
+<img id="forhead" src="images/Head2.jpg" alt="Header">
+</div>
+
+<!------------------------------------>
+<!--Отображение информации про HTML5-->
+<!------------------------------------>
+<a name="html5"></a>
+<div  align=center>
+	<div class="between" align=center>
+		<table width="95%">
+		<td colspan=2 align=center><hr id="forhr"></td>
+			<tr>
+				<td colspan=2 align=center><header><img src="images/Html5.png" alt="StearisHTML5"></header></td>
+			</tr> 
+		<td colspan=2 align=center><hr id="forhr"></td>
+			<tr>
+				<td width="50%" align=justify>
+				<h1 align=center>&lt;video&gt</h1>
+				Это видео проигрывается с использованием новых возможностей HTML. До HTML5 не существовало стандарта для отображения видео на веб-странице. Ранее видео могли проигрываться только с использованием плагинов (например flash). Тэг &lt;video&gt; открыл возможность прикреплять видеофайлы в стандартной манере. У этого способа есть существенный недостаток - ограниченное количество поддерживаемых кодеков.
+				</td>
+				<td align=center width="50%">
+					<div id="forplayer">
+						<video width="620" height="470" controls>
+						<source src="Nebulae.mp4" type="video/mp4">
+						</video>
+						<br>
+					</div>
+				</td>
+			</tr>
+			<td colspan=2 align=center><hr id="forhr"></td> 
+			<tr>
+				<td align=center width="50%">
+					<div id="forplayer">
+						<br>
+						The Prodigy - Omen
+						<br>
+						<audio id="player" controls>
+							<source src="Omen.mp3" type="audio/mpeg">
+							Тег audio не поддерживается вашим браузером. 
+							<a href="audio/music.mp3">Скачайте музыку</a>.
+						</audio>
+						<br>
+							<button onclick="document.getElementById('player').play()"><img src="icons/play.png" alt="StearisPlay"></button>
+							<button onclick="document.getElementById('player').pause()"><img src="icons/stop.png" alt="StearisStop"></button>
+							<button onclick="document.getElementById('player').volume-=0.1"><img src="icons/minus.png" alt="StearisVolumeDown"></button>
+							<button onclick="document.getElementById('player').volume+=0.1"><img src="icons/plus.png" alt="StearisVolumeUp"></button>	
+						<br>
+						<br>
+						<br>	
+					</div>						
+				</td>
+				<td width="50%" align=justify>
+				<h1 align=center>&lt;audio&gt</h1>
+				С введением технологии HTML5 у браузеров появилась замечательная возможность - воспроизводить аудиофайлы стандартным методом. Поддерживаемыми форматами являются MP3, WAV и OGG. HTML5 определяет новые DOM-методы и свойства для элемента &lt;audio&gt;.
+				</td>
+			</tr>
+			<td colspan=2 align=center><hr id="forhr"></td>
+			<tr>
+				<td width="50%" align=justify>
+				<h1 align=center>&lt;canvas&gt</h1>
+				В HTML5 определен элемент &lt;canvas&gt как «растровый холст, который может быть использован для отображения диаграмм, игровой графики или изображений на лету». Холст это прямоугольная область на вашей странице, где с помощью JavaScript можно рисовать что пожелаете.
+				</td>
+				<td align=center width="50%">
+					<div id="forplayer">
+						<br>
+						<canvas id="paint" width="500" height="500">
+						</canvas>
+						<br>
+						<br>
+					</div>
+				</td>
+			</tr>
+			<td colspan=2 align=center><hr id="forhr"></td>	
+			<tr>
+				<td align=center width="50%">
+					<div id="forplayer">
+						<br>
+						<button onclick="geol()"><img width="100px" src="icons/Geo.png" alt="StearisGeo"></button>
+						<br>	
+						<br>
+					</div>						
+				</td>
+				<td width="50%" align=justify>
+				<h1 align=center>Geolocation</h1>
+				Геолокация - способ обнаружения географического положения устройства, подключенного к Интернету. В HTML5 определены новые методы для JS, позволяющие определять широту и долготу, откуда совершался запрос.
+				</td>
+			</tr>	
+			<td colspan=2 align=center><hr id="forhr"></td>				
+		</table>
+	</div>
+</div>
+<!----------------------------->
+<!--Промежуточное изображение-->
+<!----------------------------->
+<div align="center">
+<img id="forhead" src="images/Head2.jpg" alt="Header">
+</div>
+
+<div align="center">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+	<footer align=center>
+		<div id="scrollup"><img height="102%" alt="StearisGoUp" src="icons/up1.png"></div>
+		<a href="http://top.mail.ru/jump?from=2789723">
+		<img src="//top-fwz1.mail.ru/counter?id=2789723;t=431;l=1" 
+		style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a>
+	</footer>
+	
+<!--TODO: Перенести скрипты в отдельные файлы-->
+<script>
+var canvas = document.getElementsByTagName('canvas')[0],
+    ctx = null,
+    grad = null,
+    body = document.getElementsByTagName('body')[0],
+    color = 255;
+    
+if (canvas.getContext('2d')) {
+  ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, 500, 500);
+  ctx.save();
+  // Create radial gradient
+  grad = ctx.createRadialGradient(0,0,0,0,0,250); 
+  grad.addColorStop(0, '#111');
+  grad.addColorStop(1, 'rgb(' + color + ', ' + color + ', ' + color + ')');
+  // assign gradients to fill
+  ctx.fillStyle = grad;
+  // draw 600x600 fill
+  ctx.fillRect(0,0,500,500);
+  ctx.save();
+  
+  body.onmousemove = function (event) {
+    var width = window.innerWidth, 
+        height = window.innerHeight, 
+        x = event.clientX, 
+        y = event.clientY,
+        rx = 500 * x / width,
+        ry = 500 * y / height;
+        
+    var xc = ~~(256 * x / width);
+    var yc = ~~(256 * y / height);
+    grad = ctx.createRadialGradient(rx, ry, 0, rx, ry, 400); 
+    
+	grad.addColorStop(0, ['rgb(', (255 - xc), ', ', xc, ', ', (255-yc), ')'].join(''));
+    grad.addColorStop(1, ['rgb(', xc, ', ', (255 - xc), ', ', yc, ')'].join(''));
+    // ctx.restore();
+    ctx.fillStyle = grad;
+    ctx.fillRect(0,0,500,500);
+    // ctx.save();
+  };
+}
+</script>
+
+
+</body>
+</html>
+
