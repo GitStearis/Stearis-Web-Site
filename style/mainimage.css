@@ -1,0 +1,19 @@
+#topimage-container, #arrow-container
+{
+    position: relative;
+} 
+#arrow-container
+{
+    top: -150px;
+}
+#topimage
+{
+	margin-top: 140px;
+    height: 400px;
+    width: 1349px;
+}
+#arrow
+{
+	height: 100px;
+    width: 100px;
+}

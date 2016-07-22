@@ -1,0 +1,57 @@
+.layout 
+{
+    width: 100%;
+    table-layout: fixed;
+}
+.layout td 
+{
+    padding: 7px;
+    vertical-align: top;
+}
+
+.col1 
+{
+    width: 15%;
+    text-align: left;
+}
+
+.col2
+{
+    width: 1000px;
+}
+.col3 
+{
+    width: 15%;
+    text-align: right;
+}
+#lefticon
+{
+    opacity: 0.93;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 20px 20px 20px 20px; 
+}
+#lefttext
+{
+    height: 240px;
+    width: 60%;
+    float: left;
+    margin: 30px 20px 20px 20px; 
+}
+#righticon
+{
+    opacity: 0.93;
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin: 20px 20px 20px 20px; 
+}
+#righttext
+{
+    height: 240px;
+    width: 66%;
+    float: right;
+    margin: 40px 20px 20px 20px; 
+}
+

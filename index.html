@@ -1,423 +1,88 @@
-п»ї<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
 
-<link rel="Icon" href="icons/icon.png" type="image/png"> 
-<link rel="stylesheet" href="style/maintable.css">
-<link rel="stylesheet" href="style/topmenu.css">
-<link rel="stylesheet" href="style/popup.css">
+    <title>
+        Stearis - Landing Page
+    </title>
 
+    <link rel="stylesheet" href="style/topmenu.css">
+    <link rel="stylesheet" href="style/layouttable.css">
+	<link rel="stylesheet" href="style/stylesheet.css">
+	<link rel="stylesheet" href="style/mainimage.css">
 
-<META charset="windows-1251" name="Stearis" content="Page of Stearis"> 
-<meta name='wmail-verification' content='e3c7647369f18ec4cf58553729726ee0' />
+    <meta charset="windows-1251">
 
 </head>
 
-<style>
-body
-{
-    font: normal small-caps 19.5px "Lucida Sans Unicode";
-    background-color: rgb(207, 217, 208);
-    background-image: url(Background.jpg);
-	background-repeat:no-repeat;
-	background-size: 100%;
-	background-attachment:fixed;
-	position: static;
-}
-@media handheld
-{ 
-	body
-	{
-		 background-image: url(Background10.jpg);
-	}
-}
-#contact
-{
-	width:70%;
-	heigth:70%;
-}
-#forhead 
-{
-	z-index: 3;
-	width:1349px;
-	heigth:250px;
-	position: relative;
-	margin: -0.7%;
-}
-#forhr
-{
-	align: center;
-	color: rgb(207, 217, 208);
-}
-#forbottom
-{
-	border-radius: 10px 10px 10px 10px;
-	font: normal small-caps 16px "Calibri";
-	background:rgb(207, 217, 208);
-	width: 5%;
-	opacity: 0.5;
-}
+<body>
 
-#scrollup 
-{
-	height: 100%;
-	z-index: 5;
-	position: fixed; 
-	opacity: 0.7;
-	padding: 4px;
-	border-radius: 20px;
-	left: -4px; 
-	bottom: -2px;
-	display: none;
-	cursor: pointer;
-}
-#forplayer
-{
-	width: 100%;
-	height: 100%;
-	background: rgb(142, 168, 164);
-	border-radius: 20px;
-}
-button
-{
-color:rgb(10, 13, 16);
-  text-decoration: none; 
-  user-select: none; 
-  background: rgb(207, 217, 208); 
-  padding: 0.5em; 
-  margin: 0.5em; 
-} 
-button:hover { background: rgb(83, 132, 162); } 
-canvas
-{
-	border-radius: 20px;
-}
-.between
-{
-    background: linear-gradient(to top right, rgb(226, 230, 228), rgb(143, 158, 173));
-	background-repeat:no-repeat;
-	margin: -0.6%;
-	width:1349px;
-}
-</style>
-
-<TITLE>
-Stearis - Landing Page
-</TITLE>
-
-<!-------->
-<!--BODY-->
-<!-------->
-<body class="header">
-
-<script type="text/javascript" src='js/scrollup.js'></script>
-<script type="text/javascript" src='js/geolocation.js'></script>
-
-<!----------->
-<!--Mail.Ru-->
-<!----------->
-<script type="text/javascript">
-var _tmr = window._tmr || (window._tmr = []);
-_tmr.push({id: "2789723", type: "pageView", start: (new Date()).getTime()});
-(function (d, w, id) {
-  if (d.getElementById(id)) return;
-  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
-  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
-  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
-})(document, window, "topmailru-code");
-</script><noscript><div style="position:absolute;left:-10000px;">
-<img src="//top-fwz1.mail.ru/counter?id=2789723;js=na" style="border:0;" height="1" width="1" alt="Р РµР№С‚РёРЅРі@Mail.ru" />
-</div></noscript>
-
-
-<!----------------------------------------------------------->
-<!--РћС‚РѕР±СЂР°Р¶РµРЅРёРµ РІСЃРїР»С‹РІР°СЋС‰РµРіРѕ РѕРєРЅР°. РџРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅРѕ РѕРЅРѕ СЃРєСЂС‹С‚Рѕ-->
-<!----------------------------------------------------------->
-<div class="popup-wrapper">
-<input type="checkbox" class="popup-checkbox" id="popupCheckboxOne">
-<div class="popup">
-	<div class="popup-content">
-		<label for="popupCheckboxOne" class="popup-closer">Г—</label>
-		  <table>
-			  <tr>
-				<td align="center">
-					<address><a href="https://twitter.com/StereoDwarf"><img id="contact" src="icons/TW.png" alt="StearisTW"></a></address>
-					<br>
-					РўРІРёС‚С‚РµСЂ
-				</td>
-				<td align="center">
-					<address><a href="https://vk.com/stereodwarf"><img id="contact" src="icons/VK.png" alt="StearisVK"></a></address>
-					<br>
-					Р’РљРѕРЅС‚Р°РєС‚Рµ
-				</td>
-				<td align="center">
-					<address><a href="https://www.facebook.com/profile.php?id=100002901834042"><img id="contact" src="icons/FB.png" alt="StearisFB"></a></address>
-					<br>
-					Р¤СЌР№СЃР±СѓРє
-				</td>
-			  </tr>
-		  </table>
+<header align="center">
+	<div id="menu">
+        <table id="toptable">
+            <tr>
+                <td id="top_buttons"><a href=#>О нас</a></td>
+                <td id="top_buttons"><a href=#>Прайс</a></td>
+                <td id="top_buttons"><a href=#>Контакты</a></td>
+            </tr>
+        </table>
 	</div>
-</div>
-</div>
-
-<!---------------->
-<!--Р’РµСЂС…РЅРµРµ РјРµРЅСЋ-->
-<!---------------->
-<aside>
-<nav id="primary_nav_wrap">
-<ul class="top">
-<li class="current-menu-item"><nav><a href="#start">РќР°С‡Р°Р»Рѕ</a></nav></li>
-	<li><a href="#">РЎСЃС‹Р»РєРё</a>
-		<ul>
-			<li class="dir"><a href="#">Р”РёР·Р°Р№РЅ</a></li>
-			<li class="dir"><a href="#">РРґРµРё</a></li>
-			<li class="dir"><a href="#">РРЅС„РѕСЂРјР°С†РёСЏ</a></li>
-		</ul>
-	</li>
-	<li class="current-menu-item"><nav><a href="#html5">HTML5</a></nav>
-	</li>
-  <li><a href="#">Р“Р°Р»РµСЂРµСЏ</a>
-    <ul>
-		<li class="dir"><a href="#">РњРѕС‘</a></li>
-		<li class="dir"><a href="#">РђСЂС‚С‹</a></li>
-		<li class="dir"><a href="#">Р¤РѕРЅС‹</a></li>
-    </ul>
-  </li>
-<li class="current-menu-item"><nav><a href="#">
-<label for="popupCheckboxOne" class="popup-shower">РЎРІСЏР·Р°С‚СЊСЃСЏ</label></a></nav></li>
-</ul>
-</nav>
-</aside>
-
-<!------------------------->
-<!--Р—Р°РіР»Р°РІРЅРѕРµ РёР·РѕР±СЂР°Р¶РµРЅРёРµ-->
-<!------------------------->
-<a name="start"></a>
-<div align="center">
-<img id="forhead" src="images/Head.jpg" alt="StearisHeader">
-</div>
-
-<!------------------------>
-<!--РўР°Р±Р»РёС†Р° РґР»СЏ "РќР°С‡Р°Р»Рѕ"-->
-<!------------------------> 
-<table id="maintable" align="center">
-	<td colspan=2 align=center><hr id="forhr"></td> 
-		<tr>
-			<td colspan=2 align=center><header><img src="images/Start.png" alt="StearisStart"></header></td>
-		</tr>	
-	<td colspan=2 align=center><hr id="forhr"></td> 
-		<tr>
-			<td id="lefttd"><div id="fordiv"><img id="lefticon" src="icons/Book.png" alt="SearisBook"></div></td>
-			<td id="righttd"><P>РџСЂРёРІРµС‚, РїСѓС‚РЅРёРє! РњРѕР№ РЅРёРєРЅРµР№Рј - Stearis, СЏ СЏРІР»СЏСЋСЃСЊ СЃС‚СѓРґРµРЅС‚РѕРј-РїСЂРѕРіСЂР°РјРјРёСЃС‚РѕРј РїРµСЂРІРѕРіРѕ РєСѓСЂСЃР°. Р“Р»Р°РІРЅР°СЏ РёРґРµСЏ СЌС‚РѕРіРѕ СЃР°Р№С‚Р° - Р±С‹С‚СЊ РїР»РѕС‰Р°РґРєРѕР№ РґР»СЏ РјРѕРёС… РїРµСЂРІС‹С… СЌРєСЃРїРµСЂРёРјРµРЅС‚РѕРІ РІ РІРµР±-СЂР°Р·СЂР°Р±РѕС‚РєРµ. Р‘РѕР»СЊС€РёРЅСЃС‚РІРѕ РёР·РѕР±СЂР°Р¶РµРЅРёР№ РЅР° РјРѕРµРј СЃР°Р№С‚Рµ СЃРѕР·РґР°РЅС‹/СЃРІРµСЂСЃС‚Р°РЅС‹/РЅР°Р№РґРµРЅС‹ РјРЅРѕСЋ.</P></td>
-		</tr>
-	<td colspan=2 align=center><hr id="forhr"></td> 
-		<tr>
-			<td id="lefttd"><div id="fordiv"><img id="lefticon" src="icons/Computer.png" alt="StearisComp"></div></td>
-			<td id="righttd">
-			<P align="left">РџСЂРё СЂР°Р·РІРёС‚РёРё СЌС‚РѕР№ СЃС‚СЂР°РЅРёС†С‹ СЏ РїСЂРёСЃР»РµРґСѓСЋ СЃР»РµРґСѓСЋС‰РёРµ С†РµР»Рё:
-				<ul align="left">
-					<li>РўСЂРµРЅРёСЂРѕРІРєР° РЅР°РІС‹РєРѕРІ СЃР°Р№С‚РѕСЃС‚СЂРѕРµРЅРёСЏ</li>
-					<li>РЎРѕР·РґР°РЅРёРµ СЃРѕР±СЃС‚РІРµРЅРЅРѕРіРѕ РѕРґРЅРѕСЃС‚СЂР°РЅРёС‡РЅРѕРіРѕ СЃР°Р№С‚Р°</li>
-					<li>Р—РЅР°РєРѕРјСЃС‚РІРѕ СЃ СЃРёСЃС‚РµРјРѕР№ РґРѕРјРµРЅРѕРІ Рё С…РѕСЃС‚РёРЅРіРѕРІ</li>
-				</ul>     
-			</P>
-			</td>
-		</tr>
-	<td colspan=2 align=center><hr id="forhr"></td> 
-		<tr>
-		<td id="lefttd"><div id="fordiv"><img id="lefticon" src="icons/Gear.png" alt="StearisGear"></div></td>
-		<td id="righttd"><P>РЎР°Р№С‚ РЅР°РїРёСЃР°РЅ РЅР° HTML СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј CSS. РќР° СЃР°Р№С‚Рµ РїСЂРёСЃСѓС‚СЃС‚РІСѓРµС‚ РєРЅРѕРїРєР° РїРµСЂРµРјРµС‰РµРЅРёСЏ РІ РЅР°С‡Р°Р»Рѕ СЃС‚СЂР°РЅРёС†С‹, СЃРѕР·РґР°РЅРЅР°СЏ СЃ РїРѕРјРѕС‰СЊСЋ СЏР·С‹РєР° JavaScript. Р Р°Р·СЂР°Р±РѕС‚РєР° РІРµР»Р°СЃСЊ РїР°СЂР°Р»Р»РµР»СЊРЅРѕ СЃ РІС‹РїРѕР»РЅРµРЅРёРµРј Р»Р°Р±РѕСЂР°С‚РѕСЂРЅС‹С… Р·Р°РґР°РЅРёР№, РѕСЃРѕР±РµРЅРЅРѕСЃС‚Рё, РєРѕС‚РѕСЂС‹Рµ РјРµРЅСЏ РёРЅС‚РµСЂРµСЃРѕРІР°Р»Рё, РЅР°С€Р»Рё РѕС‚СЂР°Р¶РµРЅРёРµ РЅР° РјРѕРµРј СЃР°Р№С‚Рµ.</P></td>
-		</tr>
-	<td colspan=2 align=center><hr id="forhr"></td> 
-</table>
-
-<!----------------------------->
-<!--РџСЂРѕРјРµР¶СѓС‚РѕС‡РЅРѕРµ РёР·РѕР±СЂР°Р¶РµРЅРёРµ-->
-<!----------------------------->
-<div align="center">
-<img id="forhead" src="images/Head2.jpg" alt="Header">
-</div>
-
-<!------------------------------------>
-<!--РћС‚РѕР±СЂР°Р¶РµРЅРёРµ РёРЅС„РѕСЂРјР°С†РёРё РїСЂРѕ HTML5-->
-<!------------------------------------>
-<a name="html5"></a>
-<div  align=center>
-	<div class="between" align=center>
-		<table width="95%">
-		<td colspan=2 align=center><hr id="forhr"></td>
-			<tr>
-				<td colspan=2 align=center><header><img src="images/Html5.png" alt="StearisHTML5"></header></td>
-			</tr> 
-		<td colspan=2 align=center><hr id="forhr"></td>
-			<tr>
-				<td width="50%" align=justify>
-				<h1 align=center>&lt;video&gt</h1>
-				Р­С‚Рѕ РІРёРґРµРѕ РїСЂРѕРёРіСЂС‹РІР°РµС‚СЃСЏ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РЅРѕРІС‹С… РІРѕР·РјРѕР¶РЅРѕСЃС‚РµР№ HTML. Р”Рѕ HTML5 РЅРµ СЃСѓС‰РµСЃС‚РІРѕРІР°Р»Рѕ СЃС‚Р°РЅРґР°СЂС‚Р° РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РІРёРґРµРѕ РЅР° РІРµР±-СЃС‚СЂР°РЅРёС†Рµ. Р Р°РЅРµРµ РІРёРґРµРѕ РјРѕРіР»Рё РїСЂРѕРёРіСЂС‹РІР°С‚СЊСЃСЏ С‚РѕР»СЊРєРѕ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РїР»Р°РіРёРЅРѕРІ (РЅР°РїСЂРёРјРµСЂ flash). РўСЌРі &lt;video&gt; РѕС‚РєСЂС‹Р» РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РїСЂРёРєСЂРµРїР»СЏС‚СЊ РІРёРґРµРѕС„Р°Р№Р»С‹ РІ СЃС‚Р°РЅРґР°СЂС‚РЅРѕР№ РјР°РЅРµСЂРµ. РЈ СЌС‚РѕРіРѕ СЃРїРѕСЃРѕР±Р° РµСЃС‚СЊ СЃСѓС‰РµСЃС‚РІРµРЅРЅС‹Р№ РЅРµРґРѕСЃС‚Р°С‚РѕРє - РѕРіСЂР°РЅРёС‡РµРЅРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРґРґРµСЂР¶РёРІР°РµРјС‹С… РєРѕРґРµРєРѕРІ.
-				</td>
-				<td align=center width="50%">
-					<div id="forplayer">
-						<video width="620" height="470" controls>
-						<source src="Nebulae.mp4" type="video/mp4">
-						</video>
-						<br>
-					</div>
-				</td>
-			</tr>
-			<td colspan=2 align=center><hr id="forhr"></td> 
-			<tr>
-				<td align=center width="50%">
-					<div id="forplayer">
-						<br>
-						The Prodigy - Omen
-						<br>
-						<audio id="player" controls>
-							<source src="Omen.mp3" type="audio/mpeg">
-							РўРµРі audio РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ РІР°С€РёРј Р±СЂР°СѓР·РµСЂРѕРј. 
-							<a href="audio/music.mp3">РЎРєР°С‡Р°Р№С‚Рµ РјСѓР·С‹РєСѓ</a>.
-						</audio>
-						<br>
-							<button onclick="document.getElementById('player').play()"><img src="icons/play.png" alt="StearisPlay"></button>
-							<button onclick="document.getElementById('player').pause()"><img src="icons/stop.png" alt="StearisStop"></button>
-							<button onclick="document.getElementById('player').volume-=0.1"><img src="icons/minus.png" alt="StearisVolumeDown"></button>
-							<button onclick="document.getElementById('player').volume+=0.1"><img src="icons/plus.png" alt="StearisVolumeUp"></button>	
-						<br>
-						<br>
-						<br>	
-					</div>						
-				</td>
-				<td width="50%" align=justify>
-				<h1 align=center>&lt;audio&gt</h1>
-				РЎ РІРІРµРґРµРЅРёРµРј С‚РµС…РЅРѕР»РѕРіРёРё HTML5 Сѓ Р±СЂР°СѓР·РµСЂРѕРІ РїРѕСЏРІРёР»Р°СЃСЊ Р·Р°РјРµС‡Р°С‚РµР»СЊРЅР°СЏ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ - РІРѕСЃРїСЂРѕРёР·РІРѕРґРёС‚СЊ Р°СѓРґРёРѕС„Р°Р№Р»С‹ СЃС‚Р°РЅРґР°СЂС‚РЅС‹Рј РјРµС‚РѕРґРѕРј. РџРѕРґРґРµСЂР¶РёРІР°РµРјС‹РјРё С„РѕСЂРјР°С‚Р°РјРё СЏРІР»СЏСЋС‚СЃСЏ MP3, WAV Рё OGG. HTML5 РѕРїСЂРµРґРµР»СЏРµС‚ РЅРѕРІС‹Рµ DOM-РјРµС‚РѕРґС‹ Рё СЃРІРѕР№СЃС‚РІР° РґР»СЏ СЌР»РµРјРµРЅС‚Р° &lt;audio&gt;.
-				</td>
-			</tr>
-			<td colspan=2 align=center><hr id="forhr"></td>
-			<tr>
-				<td width="50%" align=justify>
-				<h1 align=center>&lt;canvas&gt</h1>
-				Р’ HTML5 РѕРїСЂРµРґРµР»РµРЅ СЌР»РµРјРµРЅС‚ &lt;canvas&gt РєР°Рє В«СЂР°СЃС‚СЂРѕРІС‹Р№ С…РѕР»СЃС‚, РєРѕС‚РѕСЂС‹Р№ РјРѕР¶РµС‚ Р±С‹С‚СЊ РёСЃРїРѕР»СЊР·РѕРІР°РЅ РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РґРёР°РіСЂР°РјРј, РёРіСЂРѕРІРѕР№ РіСЂР°С„РёРєРё РёР»Рё РёР·РѕР±СЂР°Р¶РµРЅРёР№ РЅР° Р»РµС‚СѓВ». РҐРѕР»СЃС‚ СЌС‚Рѕ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅР°СЏ РѕР±Р»Р°СЃС‚СЊ РЅР° РІР°С€РµР№ СЃС‚СЂР°РЅРёС†Рµ, РіРґРµ СЃ РїРѕРјРѕС‰СЊСЋ JavaScript РјРѕР¶РЅРѕ СЂРёСЃРѕРІР°С‚СЊ С‡С‚Рѕ РїРѕР¶РµР»Р°РµС‚Рµ.
-				</td>
-				<td align=center width="50%">
-					<div id="forplayer">
-						<br>
-						<canvas id="paint" width="500" height="500">
-						</canvas>
-						<br>
-						<br>
-					</div>
-				</td>
-			</tr>
-			<td colspan=2 align=center><hr id="forhr"></td>	
-			<tr>
-				<td align=center width="50%">
-					<div id="forplayer">
-						<br>
-						<button onclick="geol()"><img width="100px" src="icons/Geo.png" alt="StearisGeo"></button>
-						<br>	
-						<br>
-					</div>						
-				</td>
-				<td width="50%" align=justify>
-				<h1 align=center>Geolocation</h1>
-				Р“РµРѕР»РѕРєР°С†РёСЏ - СЃРїРѕСЃРѕР± РѕР±РЅР°СЂСѓР¶РµРЅРёСЏ РіРµРѕРіСЂР°С„РёС‡РµСЃРєРѕРіРѕ РїРѕР»РѕР¶РµРЅРёСЏ СѓСЃС‚СЂРѕР№СЃС‚РІР°, РїРѕРґРєР»СЋС‡РµРЅРЅРѕРіРѕ Рє РРЅС‚РµСЂРЅРµС‚Сѓ. Р’ HTML5 РѕРїСЂРµРґРµР»РµРЅС‹ РЅРѕРІС‹Рµ РјРµС‚РѕРґС‹ РґР»СЏ JS, РїРѕР·РІРѕР»СЏСЋС‰РёРµ РѕРїСЂРµРґРµР»СЏС‚СЊ С€РёСЂРѕС‚Сѓ Рё РґРѕР»РіРѕС‚Сѓ, РѕС‚РєСѓРґР° СЃРѕРІРµСЂС€Р°Р»СЃСЏ Р·Р°РїСЂРѕСЃ.
-				</td>
-			</tr>	
-			<td colspan=2 align=center><hr id="forhr"></td>				
-		</table>
+	<div id="topimage-container" align="center">
+		<img id="topimage" src="1.jpg"></img>
 	</div>
-</div>
-<!----------------------------->
-<!--РџСЂРѕРјРµР¶СѓС‚РѕС‡РЅРѕРµ РёР·РѕР±СЂР°Р¶РµРЅРёРµ-->
-<!----------------------------->
-<div align="center">
-<img id="forhead" src="images/Head2.jpg" alt="Header">
-</div>
-
-<div align="center">
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-</div>
-	<footer align=center>
-		<div id="scrollup"><img height="102%" alt="StearisGoUp" src="icons/up1.png"></div>
-		<a href="http://top.mail.ru/jump?from=2789723">
-		<img src="//top-fwz1.mail.ru/counter?id=2789723;t=431;l=1" 
-		style="border:0;" height="31" width="88" alt="Р РµР№С‚РёРЅРі@Mail.ru" /></a>
-	</footer>
+	<div id="arrow-container" align="center">
+		<img id="arrow" src="Arrow.png"></img>
+	</div>
+</header>
 	
-<!--TODO: РџРµСЂРµРЅРµСЃС‚Рё СЃРєСЂРёРїС‚С‹ РІ РѕС‚РґРµР»СЊРЅС‹Рµ С„Р°Р№Р»С‹-->
-<script>
-var canvas = document.getElementsByTagName('canvas')[0],
-    ctx = null,
-    grad = null,
-    body = document.getElementsByTagName('body')[0],
-    color = 255;
-    
-if (canvas.getContext('2d')) {
-  ctx = canvas.getContext('2d');
-  ctx.clearRect(0, 0, 500, 500);
-  ctx.save();
-  // Create radial gradient
-  grad = ctx.createRadialGradient(0,0,0,0,0,250); 
-  grad.addColorStop(0, '#111');
-  grad.addColorStop(1, 'rgb(' + color + ', ' + color + ', ' + color + ')');
-  // assign gradients to fill
-  ctx.fillStyle = grad;
-  // draw 600x600 fill
-  ctx.fillRect(0,0,500,500);
-  ctx.save();
-  
-  body.onmousemove = function (event) {
-    var width = window.innerWidth, 
-        height = window.innerHeight, 
-        x = event.clientX, 
-        y = event.clientY,
-        rx = 500 * x / width,
-        ry = 500 * y / height;
-        
-    var xc = ~~(256 * x / width);
-    var yc = ~~(256 * y / height);
-    grad = ctx.createRadialGradient(rx, ry, 0, rx, ry, 400); 
-    
-	grad.addColorStop(0, ['rgb(', (255 - xc), ', ', xc, ', ', (255-yc), ')'].join(''));
-    grad.addColorStop(1, ['rgb(', xc, ', ', (255 - xc), ', ', yc, ')'].join(''));
-    // ctx.restore();
-    ctx.fillStyle = grad;
-    ctx.fillRect(0,0,500,500);
-    // ctx.save();
-  };
-}
-</script>
 
+
+<main>
+    <table class="layout" cellspacing="0">
+        <tr>
+            <td class="col1"></td>
+			
+            <td class="col2">
+				<section>
+						<hr>
+						<article>
+							<p id="righttext">
+							Частное предприятие "Инструментальные решения" занимается поставками промышленного металлорежущего инструмента, пластины твердосплавной и станочной оснастки предприятиям Беларуси.<br>
+							Частное предприятие "Инструментальные решения" сочетает в себе функции торговой организации с консультативной деятельностью. Наши специалисты помогут решить задачи по эффективному использованию всех видов инструмента для металлообработки.
+							<p>
+							<img itemprop="image" id="lefticon" src="Flag.png" alt="Flag">
+						</article>
+						<hr>
+						<article>			
+							<ul id="lefttext">
+							Наша фирма выполняет следующие виды работ:<br>
+							<li>комплексная поставка инструмента со склада под заказ;</li>
+							<li>доставка инструмента заказчику по г. Минску транспортом фирмы или отправка по РБ транспортной компанией;</li>
+							<li>подбор наиболее эффективного инструмента под конкретные условия металлообработки;</li>
+							<li>бесплатные технические консультации по применению инструмента;</li>
+							<li>подбор современного высокотехнологичного инструмента;</li>
+							<li>поиск дефицитного инструмента;</li>
+							</ul>
+							<img itemprop="image" id="righticon" src="Doc.png" alt="Doc">
+						</article>
+						<hr>
+						<article>			
+							<p id="righttext">
+							Нашим преимуществом является наличие на складе более 5000 наименований режущего инструмента и станочной оснастки, а также более 2000 позиций твердосплавной пластины различных форм и сплавов;<br>
+							Мы предлагаем заказчикам качественную организацию комплексных поставок, что сокращает временные и финансовые затраты на поиск, подбор и транспортировку товара.	
+							</p>
+							<img itemprop="image" id="lefticon" src="Truck.png" alt="Truck">
+						</article>
+						<hr>
+				</section>
+            </td>
+			
+            <td class="col3"></td>
+        </tr>
+    </table>
+</main>
 
 </body>
-</html>
 
+</html>
