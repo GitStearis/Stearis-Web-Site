@@ -1,0 +1,177 @@
+/*
+    Header Items / Объекты заголовка
+*/
+
+.menu-container
+{
+    position: fixed;
+    z-index: 999;
+
+    width: 100%;
+    height: 50px;
+
+    font-family: "Verdana", Helvetica, Arial, sans-serif;
+
+    background-color: rgba(224, 224, 209, 0.5);
+    line-height: 22px;
+}
+.menu-container:hover
+{
+    background-color: rgba(224, 224, 209, 0.9);
+}
+.menu-container:hover li a
+{
+	background-color: rgba(226, 160, 105, 0.9);
+}
+.menu
+{
+    margin-right: 10%;
+}
+
+ul.buttons
+{
+    list-style: none;
+}
+ul.buttons li a
+{
+    display: block;
+    width: 120px;
+
+    float: right;
+    padding: 14px 20px;
+
+	color: #444;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+
+	background-color: rgba(226, 160, 105, 0.8);
+}
+ul.buttons li a:hover
+{
+	background-color: rgba(199, 92, 92, 0.9);
+}
+
+.topimage-container
+{
+    position: relative;
+    top: 150px;
+}
+.topimage
+{
+    width: 1366px;
+    height: 400px;
+}
+
+/*
+    Main Items / Объекты главной части
+*/
+.caption-container
+{
+    width: 1000px;
+    text-align: center;
+    margin: 60px 0 20px 0;
+}
+.caption
+{
+
+    font-family: "Verdana", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+#button-up-container
+{
+    display: none;
+    opacity: 0.50;
+
+    width: 70px;
+    height: 100%;
+
+
+    text-align: center;
+    position: fixed;
+    z-index: 998;
+}
+.button-up
+{
+    position: relative;
+    top: 75%;
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.lefttext
+{
+    float: left;
+    margin: 60px 0 40px 0;
+
+    width: 70%;
+ 
+    text-align: left;
+}
+
+.righttext
+{
+    float: right;
+    margin: 60px 0 40px 10px;
+
+    width: 65%;
+
+    text-align: left;
+}
+
+.lefticon-container
+{
+    float: left;
+    margin: 40px 0 40px 0;
+
+    width: 290px;
+    height: 290px;
+
+    border-radius: 50%;
+    background: rgba(199, 92, 92, 1);
+}
+.righticon-container
+{
+    float: right;
+    margin: 40px 0 40px 0;
+
+    width: 290px;
+    height: 290px;
+
+    border-radius: 50%;
+    background: rgba(199, 92, 92, 1);
+}
+@keyframes pulse
+{
+0%
+{
+    background: rgba(199, 92, 92, 1);
+}
+50%
+{
+	background: rgba(226, 160, 105, 1);
+}
+100%
+{
+    background: rgba(199, 92, 92, 1);
+}
+}
+.lefticon-container:hover
+{
+    animation:pulse 3s infinite;
+}
+.righticon-container:hover
+{
+    animation:pulse 3s infinite;
+}
+.icon
+{
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+}
