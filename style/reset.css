@@ -9,9 +9,8 @@ a, address, img, table, tr, td, th, ul, li, ol, main, header, article, section, 
 	outline: 0;
 	background: transparent;
 }
-
 table
 {
-border-collapse: collapse;
-border-spacing: 0;	
+    border-collapse: collapse;
+    border-spacing: 0;	
 }
