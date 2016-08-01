@@ -1,9 +1,11 @@
 body
 {
+    width: 100%;
+
 	font-family: "Verdana", Helvetica, Arial, sans-serif;
 	color: #444;
-	font-size: 100%;
-    line-height: 23px;
+	font-size: 1em;
+    line-height: 24px;
 
     background-image: url(../BG.jpg);
     background-position: center center;
@@ -11,7 +13,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;  
 }
-@media only screen and (max-width: 1024px) {   body {background-image: none;   } }
+@media only screen and (max-width: 1024px) {   body {background-attachment: initial;    background-position: center top;} }
 
 a:link, a:visited
 {
@@ -31,35 +33,39 @@ a: hover
 {
     width: 100%;
     position: relative;
+}
+
+.section-about
+{
+	width: 100%;
 
     background-color: #fff;
 }
-
-.section
+.section-price
 {
-	width: 1000px;
-    margin: 0 auto;
+	width: 100%;
+
+    background-image: url(../BG2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .article
 {
     width: 1000px;
+    margin: 0 auto;
 }
 
 .header
 {
 	width: 100%;
-    background-color: #fff;
 }
 
 .footer
 {
-	display: block;
-    position: relative;
-    bottom: 0;
-
     width: 100%;
-    height: 150px;
+    height: 200px;
 
     background-color: rgba(224, 224, 209, 0.9);
 }
@@ -74,6 +80,11 @@ a: hover
 a img
 {
 	border: none;
+}
+
+p
+{
+    text-indent: 20px;
 }
 
 /*Очистка*/
