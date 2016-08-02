@@ -1,3 +1,8 @@
+html
+{
+    overflow: hidden;
+}
+
 body
 {
     width: 100%;
@@ -7,13 +12,13 @@ body
 	font-size: 1em;
     line-height: 24px;
 
-    background-image: url(../BG.jpg);
+    background-image: url(../image/BG.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;  
 }
-@media only screen and (max-width: 1024px) {   body {background-attachment: initial;    background-position: center top;} }
+@media only screen and (max-width: 1024px) {   body {background-attachment: fixed;    background-position: center top; } }
 
 a:link, a:visited
 {
@@ -22,7 +27,7 @@ a:link, a:visited
     text-decoration: none;
 }
 
-a: hover
+a:hover
 {
 	color: #39c;
 }
@@ -33,10 +38,14 @@ a: hover
 {
     width: 100%;
     position: relative;
+    text-align: center;
 }
 
 .section-about
 {
+    margin: 0 auto;
+    text-align: center;
+
 	width: 100%;
 
     background-color: #fff;
@@ -45,15 +54,21 @@ a: hover
 {
 	width: 100%;
 
-    background-image: url(../BG2.jpg);
+    background-image: url(../image/BG2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.section-contact
+{
+	width: 100%;
+
+    background-color: #fff;
+}
 
 .article
 {
-    width: 1000px;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -65,7 +80,7 @@ a: hover
 .footer
 {
     width: 100%;
-    height: 200px;
+    height: 800px;
 
     background-color: rgba(224, 224, 209, 0.9);
 }
