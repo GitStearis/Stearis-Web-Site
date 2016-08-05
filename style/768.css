@@ -1,0 +1,198 @@
+@media screen and (max-width: 768px) 
+{
+    /*
+    Header Items / Объекты заголовка
+    */
+    body 
+    {
+        background-attachment: fixed;
+        background-position: center top;
+        font-size: 90%;
+    }
+    .article
+    {
+        width: 85%;
+    }
+    .menu-container
+    {
+        height: 3em;
+    }
+    .menu
+    {
+        width: 100%;
+        float: left;
+    }
+    ul.buttons li a 
+    {
+        float: right;
+    }
+
+    /*
+    Main Items / Объекты главной части
+    */
+    .top-caption-container 
+    {
+        padding-top: 13em;
+        height: 18em;
+    }
+    .top-caption
+    {
+        font-size: 140%;
+        line-height: 1.5em; 
+    }
+    .caption
+    {
+        font-size: 120%;
+        line-height: 6em;
+    }
+    .smallcaption
+    {
+        font-size: 100%;
+        line-height: 1.3333333333333; 
+    }
+
+    #button-up-container
+    {
+        top: 70%;
+        height: 5em;
+        width: 5em;
+    }
+    .button-up
+    {
+        opacity: 0.3;
+        top: 0;
+        padding-top: 0.5em;
+        width: 4em;
+        height: 4em;
+    }
+    .lefttext
+    {
+        font-size: 90%;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+
+    .righttext
+    {
+        font-size: 90%;
+        width: 100%;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+    }
+    .icon-border
+    {
+        height: 10em; 
+        width: 10em;
+    }
+    .lefticon-container
+    {
+        width: 100%;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+    .righticon-container
+    {
+        width: 100%;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+    .icon
+    {
+        margin-top: 0.5em;
+        height: 9em;
+        width: 9em;
+    }
+
+    /*
+    Прайс-лист
+    */
+    .section-price
+    {
+        background-image: none;
+        background-color: rgba(224, 224, 209, 0.9);
+    }
+    .price-left
+    {
+        height: 10em;
+    }
+    .price-mid
+    {
+        height: 10em;
+    }
+    .price-right
+    {
+        height: 10em;
+    }
+    .price-left a, .price-mid a, .price-right a
+    {
+        line-height: 1.5em;
+        font-size: 70%;
+    }
+    .excel-icon
+    {
+        margin-top: 4em;
+        height: 4em;
+        width: 4em;
+    }
+    /*
+    Класс для прозрачных вставок
+    */
+    .transparent
+    {
+        height: 6em;
+    }
+    /*
+    Связаться
+    */
+    .contact-email, .contact-phone, .contact-bank, .contact-adress
+    {
+        width: 100%;
+        float: left;
+        font-size: 90%;
+    }
+    .contact-email a
+    {
+        margin-left: 0.625em;
+        color: #333;
+    }
+    .contact-email:hover
+    {
+        background-image: none;
+    }
+    .contact-phone:hover
+    {
+        background-image: none;
+    }
+    .contact-bank:hover
+    {
+        background-image: none;
+    }
+    .contact-adress:hover
+    {
+        background-image: none;
+    }
+    .contact-text
+    {
+        margin-top: 2em;
+        height: 10em;
+    }
+    .contact-icon-container
+    {
+        margin-top: 1em;
+    }
+    .contact-icon
+    {
+        height: 8em;
+        width: 8em;
+    }
+
+    /*
+        Подвал
+    */
+    .footer
+    {
+        height: 25em;
+    }
+}
+
