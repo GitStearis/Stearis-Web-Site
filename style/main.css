@@ -2,11 +2,6 @@
     Header Items / Объекты заголовка
 */
 
-/*
-
-    em = желаемое / контекст
-
-*/
 .menu-container
 {
     position: fixed;
@@ -15,16 +10,15 @@
     width: 100%;
     height: 3em; 
 
-    background-color: rgba(224, 224, 209, 0.5);
+    background-color: rgba(68, 68, 68, 0.2);
 }
 .menu-container:hover
 {
-    background-color: rgba(224, 224, 209, 0.9);
+    background-color: rgba(68, 68, 68, 0.9);
 }
 .menu-container:hover li a
 {
-    color: #444;
-	background-color: rgba(226, 160, 105, 0.9);
+    background-color: rgba(199, 92, 92, 0.9);
 }
 /*
     Класс для названия фирмы в левом углу меню
@@ -69,7 +63,7 @@ ul.buttons li a
     height: 2.666666666em;
 
 
-	color: #555;
+    color: rgb(224, 224, 209);
     line-height: 2.66666666666666em;
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
@@ -77,12 +71,12 @@ ul.buttons li a
     font-style: normal;
     font-weight: bold;
 
-	background-color: rgba(226, 160, 105, 0.8);
+    background-color: rgba(199, 92, 92, 0.6);
 }
 ul.buttons li a:hover
 {
-	background-color: rgba(199, 92, 92, 0.9);
-    color: rgb(224, 224, 209);
+    background-color: rgba(226, 160, 105, 0.9);
+    color: rgb(234, 234, 219);
 }
 
 /*
@@ -96,7 +90,7 @@ ul.buttons li a:hover
     height: 25em;
 
     text-align: center;
-    background-color: rgba(224, 224, 209, 0.6);
+    background-color: rgba(68, 68, 68, 0.7);
 }
 .caption-container
 {
@@ -107,23 +101,34 @@ ul.buttons li a:hover
 .top-caption
 {
     font-family: Arial, sans-serif;
-	color: #444;
-    font-size: 250%; /* 48px / 16px*/
+    color: rgb(234, 234, 219);
+    font-size: 260%;
     line-height: 2em; /*96px / 48px*/
+    font-weight: 500;
 }
 .caption
 {
     font-family: Arial, sans-serif;
 	color: #444;
-    font-size: 240%; /* 50px / 16px*/
+    font-size: 240%;
     line-height: 5em; /* 250px / 50px*/
+    font-weight: 500;
+}
+.caption-white
+{
+    font-family: Arial, sans-serif;
+    color: rgb(244, 244, 229);
+    font-size: 240%;
+    line-height: 5em; /* 250px / 50px*/
+        font-weight: 500;
 }
 .smallcaption
 {
     font-family: "Trebuchet MS";
-    color: #555;
+	color: rgb(224, 224, 209);
     font-size: 120%; /* 30px / 16px*/
     line-height: 1.3333333333333; /* 40px / 30px*/
+    font-weight: 100;
 }
 
 #button-up-container
@@ -228,7 +233,7 @@ ul.buttons li a:hover
 .price-container
 {
     width: 100%;
-    background-color: rgba(224, 224, 209, 0.5);
+    background-color: rgba(68, 68, 68, 0.6);
 }
 .price-left
 {
@@ -266,17 +271,17 @@ ul.buttons li a:hover
     width: 100%;
 
 
-	color: #555;
+    color: rgb(234, 234, 219);
     line-height: 1.5em;
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-size: 112.5%;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 100;
 }
 .price-left a:hover, .price-mid a:hover, .price-right a:hover
 {
-    color: rgb(224, 224, 209);;
+    color: rgb(244, 244, 229);
 }
 
 .excel-icon
@@ -294,7 +299,7 @@ ul.buttons li a:hover
     width: 100%;
     height: 12.5em;
     
-    background-color: rgba(224, 224, 209, 0.5);
+    background-color: rgba(68, 68, 68, 0.7);
 }
 
 /*
@@ -303,6 +308,7 @@ ul.buttons li a:hover
 .contact-container
 {
     width: 100%;
+    background-color: rgba(68, 68, 68, 0.3);
 }
 .contact-email, .contact-phone, .contact-bank, .contact-adress
 {
@@ -322,23 +328,24 @@ ul.buttons li a:hover
     margin-left: 0.625em;
     color: #333;
 }
+.contact-email:hover a
+{
+    color: rgb(234, 234, 219);
+}
 .contact-email a:hover
 {
-    margin-left: 0.625em;
-    margin-top: 0.625em;
     color: rgb(199, 92, 92);
 }
 .blur
 {
     width: 100%;
     height: 100%;
-
-    background-color: rgba(224, 224, 209, 0.7);
 }
 .contact-email:hover, .contact-phone:hover, .contact-bank:hover, .contact-adress:hover
 {
     background-position: center center;
     background-size: cover; 
+    color: rgb(234, 234, 219);
 }
 .contact-email:hover
 {
@@ -355,6 +362,10 @@ ul.buttons li a:hover
 .contact-adress:hover
 {
     background-image: url(../image/BG6.jpg);
+}
+.contact-email:hover .blur, .contact-phone:hover .blur, .contact-bank:hover .blur, .contact-adress:hover .blur
+{
+    background-color: rgba(68, 68, 68, 0.7);
 }
 .contact-text
 {
