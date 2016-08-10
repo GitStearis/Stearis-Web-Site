@@ -161,6 +161,14 @@ ul.buttons li a:hover
    
     text-align: left;
 }
+.lefttext ul
+{
+    margin-top: 0.7em;
+}
+.lefttext ul li
+{
+    margin-left: 2em;
+}
 
 .righttext
 {
