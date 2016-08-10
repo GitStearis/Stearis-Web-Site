@@ -233,7 +233,7 @@ ul.buttons li a:hover
 .price-container
 {
     width: 100%;
-    background-color: rgba(68, 68, 68, 0.6);
+    background-color: rgba(68, 68, 68, 0.7);
 }
 .price-left
 {
@@ -286,7 +286,7 @@ ul.buttons li a:hover
 
 .excel-icon
 {
-    margin-top: 7.5em;
+    margin-top: 7em;
     height: 6.25em;
     width: 6.25em;
 }
@@ -307,8 +307,7 @@ ul.buttons li a:hover
 */
 .contact-container
 {
-    width: 100%;
-    background-color: rgba(68, 68, 68, 0.3);
+    text-align: center;
 }
 .contact-email, .contact-phone, .contact-bank, .contact-adress
 {
@@ -321,15 +320,14 @@ ul.buttons li a:hover
     text-align: center;
     font-size: 112.5%;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 100;
 }
+
 .contact-email a
 {
-    margin-left: 0.625em;
-    color: #333;
-}
-.contact-email:hover a
-{
+    display: block;
+    margin-top: 1em;
+
     color: rgb(234, 234, 219);
 }
 .contact-email a:hover
@@ -338,45 +336,51 @@ ul.buttons li a:hover
 }
 .blur
 {
-    width: 100%;
-    height: 100%;
+    border: solid 1em white;
+    background-color: rgba(68, 68, 68, 0.7);
 }
-.contact-email:hover, .contact-phone:hover, .contact-bank:hover, .contact-adress:hover
+.contact-email, .contact-phone, .contact-bank, .contact-adress
 {
     background-position: center center;
     background-size: cover; 
     color: rgb(234, 234, 219);
 }
-.contact-email:hover
+.contact-email
 {
     background-image: url(../image/BG3.jpg);
 }
-.contact-phone:hover
+.contact-phone
 {
     background-image: url(../image/BG4.jpg);
 }
-.contact-bank:hover
+.contact-bank
 {
     background-image: url(../image/BG5.jpg);
 }
-.contact-adress:hover
+.contact-adress
 {
     background-image: url(../image/BG6.jpg);
-}
-.contact-email:hover .blur, .contact-phone:hover .blur, .contact-bank:hover .blur, .contact-adress:hover .blur
-{
-    background-color: rgba(68, 68, 68, 0.7);
 }
 .contact-text
 {
     float: left;
-    margin-top: 2.5em;
+    margin-top: 2em;
+    margin-left: 5%;
 
     height: 10em;
-
-    width: 95%;
+    width: 90%;
 
     text-align: center;
+}
+.contact-text hr
+{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.contact-text p
+{
+    text-indent: 0;
 }
 .contact-icon-container
 {
@@ -391,4 +395,5 @@ ul.buttons li a:hover
 {
     height: 10em;
     width: 10em;
+    margin: 0 auto;
 }
