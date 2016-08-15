@@ -7,7 +7,7 @@
     {
         background-attachment: fixed;
         background-position: center top;
-        font-size: 90%;
+        font-size: 100%;
     }
     .article
     {
@@ -37,7 +37,7 @@
     }
     .top-caption
     {
-        font-size: 140%;
+        font-size: 130%;
         line-height: 1.5em; 
     }
     .caption
@@ -154,7 +154,7 @@
         width: 100%;
 
         float: left;
-        font-size: 90%;
+        font-size: 80%;
         color: #555;
 
         background-image: none;
@@ -166,8 +166,8 @@
     }
     .contact-text
     {
-        margin-top: 2em;
-        height: 12em;
+        margin-top: 1em;
+        height: 12.5em;
     }
     .contact-icon-container
     {
@@ -180,7 +180,7 @@
     }
     .blur
     {
-        background-color: rgb(224, 224, 209);
+        background-color: #eee;
     }
 
     /*

@@ -344,7 +344,8 @@ ul.buttons li a:hover
 }
 .blur
 {
-    border: solid 1em white;
+    border: solid 1em #ddd;
+    border-bottom: solid 2em #ddd;
     background-color: rgba(68, 68, 68, 0.7);
 }
 .contact-email, .contact-phone, .contact-bank, .contact-adress
@@ -373,21 +374,25 @@ ul.buttons li a:hover
 {
     float: left;
     margin-top: 2em;
-    margin-left: 5%;
 
     height: 10em;
-    width: 90%;
+    width: 100%;
 
     text-align: center;
 }
 .contact-text hr
 {
-    width: 50%;
+    width: 40%;
     text-align: center;
     margin: 0 auto 0.5em auto;
 }
 .contact-text p
 {
+    margin-left: 5%;
+
+    width: 90%;
+
+    text-align: center;
     text-indent: 0;
 }
 .contact-icon-container

@@ -8,7 +8,6 @@ body
     line-height: 1.6em;
     letter-spacing: 0.02em;
     text-rendering: optimizeLegibility;
-    image-rendering: optimizeQuality;
 
     background-image: url(../image/BG.jpg);
     background-position: center center;
@@ -17,7 +16,6 @@ body
     background-size: cover;  
 
 }
-@media only screen and (max-width: 1024px) {   body {background-attachment: fixed;    background-position: center top; } }
 
 a:link, a:visited
 {
@@ -47,7 +45,7 @@ a:hover
 
 	width: 100%;
 
-    background-color: #fff;
+    background-color: #eee;
 }
 .section-price
 {
@@ -62,7 +60,7 @@ a:hover
 {
 	width: 100%;
     text-align: center;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 .article

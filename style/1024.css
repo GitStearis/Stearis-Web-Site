@@ -6,6 +6,8 @@
     body 
     {
         font-size: 90%;
+        background-attachment: fixed;  
+        background-position: center top;
     }
     /*
     Main Items / Объекты главной части
