@@ -78,6 +78,11 @@ ul.buttons li a:hover
     background-color: rgba(226, 160, 105, 0.9);
     color: rgb(234, 234, 219);
 }
+ul.buttons li a:active
+{
+    background-color: rgba(206, 140, 85, 0.9);
+    color: rgb(214, 214, 199);
+}
 
 /*
     Main Items / Объекты главной части
@@ -124,32 +129,11 @@ ul.buttons li a:hover
 }
 .smallcaption
 {
-    font-family: "Trebuchet MS";
+    font-family: "Century Gothic";
 	color: rgb(224, 224, 209);
     font-size: 120%; /* 30px / 16px*/
     line-height: 1.3333333333333; /* 40px / 30px*/
     font-weight: 100;
-}
-
-#button-up-container
-{
-    display: none;
-    opacity: 0.50;
-
-    width: 6.25em; /* 100px / 16px*/
-    height: 100%;
-
-    text-align: center;
-    position: fixed;
-    z-index: 998;
-}
-.button-up
-{
-    position: relative;
-    top: 75%;
-
-    width: 5em; /* 80px / 16px*/
-    height: 5em;
 }
 
 .lefttext
@@ -334,13 +318,24 @@ ul.buttons li a:hover
 .contact-email a
 {
     display: block;
-    margin-top: 1em;
+    margin: 1em auto 0;
 
-    color: rgb(234, 234, 219);
+    width: 12em;
+
+    color: rgb(224, 224, 209);
+    line-height: 2.66666666666666em;
+    background-color: rgba(199, 92, 92, 0.6);
+    border-radius: 1em;
 }
 .contact-email a:hover
 {
-    color: rgb(199, 92, 92);
+    background-color: rgba(226, 160, 105, 0.9);
+    color: rgb(234, 234, 219);
+}
+.contact-email a:active
+{
+    background-color: rgba(206, 140, 85, 0.9);
+    color: rgb(214, 214, 199);
 }
 .blur
 {
@@ -373,7 +368,7 @@ ul.buttons li a:hover
 .contact-text
 {
     float: left;
-    margin-top: 2em;
+    margin-top: 1em;
 
     height: 10em;
     width: 100%;
@@ -394,6 +389,7 @@ ul.buttons li a:hover
 
     text-align: center;
     text-indent: 0;
+    line-height: 1.5em;
 }
 .contact-icon-container
 {
@@ -409,4 +405,73 @@ ul.buttons li a:hover
     height: 10em;
     width: 10em;
     margin: 0 auto;
+}
+
+/*
+    Footer / Подвал 
+*/
+
+.footer-box
+{
+    padding-top: 20em;
+    padding-bottom: 2em; 
+    width: 100%;
+}
+
+.footer-juridical
+{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+
+}
+.footer-up
+{
+    float: left;
+    width: 33.4%;
+    text-align: center;
+}
+.footer-sitemap
+{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.footer-juridical p, .footer-up p, .footer-sitemap p
+{
+    margin-top: 0.5em;
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+	color: #555;
+    text-align: center;
+    text-indent: 0;
+    font-size: 90%;
+    font-style: normal;
+    font-weight: 100;
+}
+.footer-sitemap a
+{
+    margin: 1em 1em 0;
+
+    width: 6em;
+
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+    color: #555;
+    font-size: 90%;
+    line-height: 3em;
+}
+.footer-sitemap a:hover
+{
+    color: #000;
+}
+#footer-button
+{
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+.button-up
+{
+    width: 5em;
+    height: 5em;
 }

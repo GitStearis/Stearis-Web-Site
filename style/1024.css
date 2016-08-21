@@ -128,7 +128,7 @@
     }
     .contact-email a
     {
-        margin-left: 0.625em;
+        margin: 0.5em auto 0;
     }
     .contact-text
     {
